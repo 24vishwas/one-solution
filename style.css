@@ -272,6 +272,7 @@ h1,h2,h3,h4,h5{
     justify-content: center;
     height: calc(100vh - 100px);
     min-height: 400px;
+    max-height: 800px;
 }
 
 .hero-content{
@@ -290,7 +291,7 @@ h1,h2,h3,h4,h5{
 }
 .middle-heading{
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #e7e7e7;
+    -webkit-text-stroke-color: whitesmoke;
     color: transparent;
 }
 .hero-btn-wrapper{
@@ -831,9 +832,9 @@ footer p{
 }
 
 @media (max-width:600px){
-    footer{
+    /* footer{
         height: 800px;
-    }
+    } */
     .footer-container{
         flex-direction: column;
         /* justify-content: center; */
